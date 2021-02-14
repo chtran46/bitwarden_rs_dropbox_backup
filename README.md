@@ -37,3 +37,6 @@ Run this image alongside your bitwarden_rs container for automated nightly (1AM 
 
 ### Restoring Backup to BitWarden_RS
 Volume mount the decrypted `./bwdata` folder to your bitwarden_rs container. Done!
+
+### Modified version
+This modified version also backs up other files in `./bwdata` folder. Original version only backed up sqllite database and attachments which if restored, could not log in.
