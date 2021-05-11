@@ -40,5 +40,3 @@ Volume mount the decrypted `./bwdata` folder to your bitwarden_rs container. Don
 
 ### Modified version
 This modified version also backs up other files in `./bwdata` folder. Original version only backed up sqllite database and attachments which if restored, could not log in.
-
-### Test
